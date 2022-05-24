@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #1f2232;
   color: #e3bac6;
@@ -17,7 +21,7 @@ nav {
 ul {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 50%;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
@@ -32,15 +36,23 @@ li {
   padding: 4px;
 }
 
+ul a {
+  text-decoration: none;
+  color: #e3bac6;
+}
+
 li:hover {
   color: #dd7896;
 }
 
 header {
   padding: 10%;
+  background: rgba(31, 34, 50, 0.6);
   background-image: url("/images/cover-image.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  height: 650px;
+  background-blend-mode: darken;
 }
 
 header h1 {
@@ -114,7 +126,41 @@ footer i:hover {
     width: 100%;
   }
 
+  header {
+    height: 200px;
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 35px;
+  }
+
+  main img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    align-self: center;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  main p {
+    font-size: 14px;
+  }
+
+  .main__sobre {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
   footer i {
     font-size: 22px;
+  }
+
+  .footer__p {
+    letter-spacing: 1.5px;
+    font-size: 13px;
   }
 }
