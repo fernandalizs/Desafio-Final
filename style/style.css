@@ -8,6 +8,10 @@ body {
 nav {
   display: flex;
   flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #1f2232;
 }
 
 ul {
@@ -34,11 +38,30 @@ li:hover {
 
 header {
   padding: 10%;
+  background-image: url("/images/cover-image.png");
 }
 
 header h1 {
   font-size: 50px;
   text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3%;
+}
+
+main img {
+  width: 300px;
+  height: 300px;
+}
+
+.main__sobre {
+  width: 500px;
+  height: 300px;
+  font-size: 20px;
 }
 
 main p {
@@ -48,11 +71,18 @@ main p {
 
 footer {
   text-align: center;
+  padding-bottom: 20px;
+  opacity: 0.7;
+}
+
+.footer__p {
+  letter-spacing: 3px;
+  font-size: 18px;
 }
 
 footer i {
   font-size: 25px;
-  padding-right: 12px;
+  padding-right: 15px;
   color: #e3bac6;
 }
 
