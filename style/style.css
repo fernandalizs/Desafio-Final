@@ -39,6 +39,8 @@ li:hover {
 header {
   padding: 10%;
   background-image: url("/images/cover-image.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 header h1 {
@@ -51,6 +53,7 @@ main {
   flex-direction: row;
   justify-content: space-evenly;
   padding: 3%;
+  flex-wrap: nowrap;
 }
 
 main img {
@@ -59,14 +62,30 @@ main img {
 }
 
 .main__sobre {
-  width: 500px;
-  height: 300px;
+  width: 60%;
   font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.main__sobre__img {
+  width: 300px;
+  height: 300px;
+  margin: 0;
+}
+
+.main__sobre__p {
+  width: 700px;
+  height: 300px;
+  margin: 0;
 }
 
 main p {
   text-align: justify;
-  margin: 0;
+  margin: 10px;
+  font-size: 22px;
 }
 
 footer {
