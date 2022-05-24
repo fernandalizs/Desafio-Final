@@ -43,10 +43,29 @@ header h1 {
 
 main p {
   text-align: justify;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+}
+
+footer i {
+  font-size: 25px;
+  padding-right: 12px;
+  color: #e3bac6;
+}
+
+footer i:hover {
+  color: #dd7896;
 }
 
 @media (max-width: 720px) {
   ul {
     width: 100%;
+  }
+
+  footer i {
+    font-size: 22px;
   }
 }
