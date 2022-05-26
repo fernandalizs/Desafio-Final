@@ -73,6 +73,7 @@ header h1 {
   justify-content: space-evenly;
   padding: 3%;
   flex-wrap: nowrap;
+  /* background-color: #ffffff; */
 }
 
 section img {
@@ -143,6 +144,11 @@ main p {
   color: #dd7896;
 }
 
+.box p {
+  padding: 8px;
+  font-size: 20px;
+}
+
 .icone {
   font-size: 60px;
   padding: 10% 42%;
@@ -165,17 +171,32 @@ main p {
 }
 
 .Portfólio {
-  background-color: #fff6f9;
+  /* background-color: #fff6f9; */
   width: 100%;
 }
 
 .Portfólio h2 {
   font-size: 38px;
   text-transform: uppercase;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.portfolio__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.linha {
+  height: 1px;
+  width: 300px;
+  color: #e3bac6;
+  background-color: #e3bac6;
 }
 
 .section__portfolio {
-  width: 60%;
+  width: 100%;
 }
 
 footer {
