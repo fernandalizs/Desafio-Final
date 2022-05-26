@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: #1f2232;
-  color: #e3bac6;
+  color: #e5abbc;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -15,7 +15,8 @@ nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #1f2232;
+  background-color: #1b1e2e;
+  z-index: 99;
 }
 
 ul {
@@ -51,7 +52,7 @@ header {
 }
 
 .background {
-  background: rgba(31, 34, 50, 0.8);
+  background: #1f2232cc;
   background-image: url("../images/cover-image.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,24 +194,48 @@ main p {
 }
 
 .section__portfolio img:hover {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+.portfolio__exemplos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .portfolio__exemplos figure {
-  display: flex;
-  flex-direction: row;
+  width: 440px;
+  height: 360px;
+  border-radius: 10px;
+  background-color: #fafafa;
+  text-align: center;
 }
 
 .portfolio__exemplos figure img {
-  width: 400px;
-  height: 550px;
+  width: 440px;
+  height: 300px;
+  border-radius: 10px 10px 0 0;
+  cursor: pointer;
+}
+
+.portfolio__exemplos h3:hover {
+  color: #dd7896;
+}
+
+.portfolio__exemplos h3 {
+  color: #e5abbc;
+}
+
+.portfolio__exemplos a {
+  text-decoration: none;
 }
 
 footer {
   text-align: center;
-  padding-bottom: 20px;
+  padding: 20px 0;
   opacity: 0.6;
+  background-color: #1b1e2e;
 }
 
 .footer__p {
