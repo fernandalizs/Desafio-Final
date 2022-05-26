@@ -131,6 +131,7 @@ main p {
 
 .box:hover {
   border: 3px solid #dd7896;
+  color: #dd7896;
 }
 
 .box h6 {
@@ -138,10 +139,6 @@ main p {
   text-align: center;
   margin: 0;
   letter-spacing: 2px;
-}
-
-.box h6:hover {
-  color: #dd7896;
 }
 
 .box p {
@@ -164,19 +161,13 @@ main p {
   padding: 10% 40%;
 }
 
-.icone:hover,
-.icones:hover,
-.icon:hover {
-  color: #dd7896;
-}
-
 .Portfólio {
   /* background-color: #fff6f9; */
   width: 100%;
 }
 
 .Portfólio h2 {
-  font-size: 38px;
+  font-size: 36px;
   text-transform: uppercase;
   padding-left: 4px;
   padding-right: 4px;
@@ -185,14 +176,15 @@ main p {
 .portfolio__title {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .linha {
   height: 1px;
-  width: 300px;
+  width: 340px;
   color: #e3bac6;
   background-color: #e3bac6;
+  margin: 0;
 }
 
 .section__portfolio {
@@ -232,12 +224,13 @@ footer i:hover {
   }
 
   header h1 {
-    font-size: 35px;
+    font-size: 40px;
+    padding-top: 70px;
   }
 
   main img {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     text-align: center;
     align-self: center;
   }
@@ -248,7 +241,7 @@ footer i:hover {
   }
 
   main p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .main__sobre {
