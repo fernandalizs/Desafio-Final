@@ -217,6 +217,11 @@ main p {
   height: 300px;
   border-radius: 10px 10px 0 0;
   cursor: pointer;
+  filter: grayscale(0.32);
+}
+
+.portfolio__exemplos figure img:hover {
+  filter: none;
 }
 
 .portfolio__exemplos h3:hover {
@@ -225,6 +230,8 @@ main p {
 
 .portfolio__exemplos h3 {
   color: #e5abbc;
+  font-size: 20px;
+  margin: 15px;
 }
 
 .portfolio__exemplos a {
