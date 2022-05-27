@@ -196,7 +196,7 @@ main p {
   width: 100%;
 }
 
-.section__portfolio img:hover {
+figure:hover {
   -webkit-transform: scale(1.01);
   transform: scale(1.01);
 }
@@ -340,13 +340,13 @@ footer i:hover {
   }
 
   .portfolio__exemplos figure {
-    width: 360px;
-    height: 310px;
+    width: 320px;
+    height: 300px;
   }
 
   .portfolio__exemplos figure img {
-    width: 360px;
-    height: 250px;
+    width: 320px;
+    height: 240px;
   }
 
   figure h3 {
