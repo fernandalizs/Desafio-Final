@@ -362,15 +362,3 @@ footer i:hover {
     font-size: 13px;
   }
 }
-
-/* @media (min-width: 768px) (max-width: 992px){ 
-    .main__sobre {
-        width: 100%;
-      }
-    
-      .main__sobre__img {
-        width: 200px;
-        height: 240px;
-        margin: 2px;
-      }
-}*/
