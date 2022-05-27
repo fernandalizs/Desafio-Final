@@ -122,7 +122,6 @@ main p {
 }
 
 .box {
-  /* width: 33, 3%; */
   margin: 20px 10px;
   border: 1px solid #cfcfcf;
   background-color: #ffffff;
@@ -265,6 +264,10 @@ footer i:hover {
     width: 100%;
   }
 
+  /* nav { 
+    width: 100%;
+  } */
+
   header {
     height: 200px;
     width: 100%;
@@ -276,11 +279,9 @@ footer i:hover {
     padding-top: 70px;
   }
 
-  main img {
-    width: 220px;
-    height: 220px;
-    text-align: center;
-    align-self: center;
+  .sobre img {
+    width: 250px;
+    height: 250px;
   }
 
   section {
@@ -290,6 +291,10 @@ footer i:hover {
 
   main p {
     font-size: 16px;
+  }
+
+  .main__sobre__p {
+    padding-top: 16px;
   }
 
   .main__sobre {
@@ -303,8 +308,42 @@ footer i:hover {
     margin: 2px;
   }
 
+  .icone,
+  .icon,
+  .icones {
+    font-size: 48px;
+  }
+
+  .box {
+    height: 350px;
+    width: 300px;
+  }
+
+  .box h6 {
+    font-size: 20px;
+  }
+
+  .box p {
+    padding: 8px;
+    font-size: 16px;
+  }
+
   .Portfólio h2 {
     font-size: 26px;
+  }
+
+  .portfolio__exemplos figure {
+    width: 380px;
+    height: 300px;
+  }
+
+  .portfolio__exemplos figure img {
+    width: 380px;
+    height: 240px;
+  }
+
+  figure h3 {
+    font-size: 16px;
   }
 
   footer i {
