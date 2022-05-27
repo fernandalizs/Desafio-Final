@@ -119,6 +119,10 @@ main p {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 1300px;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box {
@@ -201,6 +205,9 @@ main p {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio__exemplos figure {
@@ -356,10 +363,9 @@ footer i:hover {
   }
 }
 
-/* @media (min-width: 721px) (max-width: 992px){ 
+/* @media (min-width: 768px) (max-width: 992px){ 
     .main__sobre {
         width: 100%;
-        flex-wrap: wrap;
       }
     
       .main__sobre__img {
@@ -367,5 +373,4 @@ footer i:hover {
         height: 240px;
         margin: 2px;
       }
-    
 }*/
