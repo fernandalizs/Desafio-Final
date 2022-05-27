@@ -303,8 +303,8 @@ footer i:hover {
   }
 
   .main__sobre__img {
-    width: 200px;
-    height: 240px;
+    width: 250px;
+    height: 250px;
     margin: 2px;
   }
 
@@ -333,13 +333,13 @@ footer i:hover {
   }
 
   .portfolio__exemplos figure {
-    width: 380px;
-    height: 300px;
+    width: 360px;
+    height: 310px;
   }
 
   .portfolio__exemplos figure img {
-    width: 380px;
-    height: 240px;
+    width: 360px;
+    height: 250px;
   }
 
   figure h3 {
